@@ -1,12 +1,31 @@
 {
-  "name": "hrf-sidebar",
-  "version": "0.1.0",
-  "private": true,
+  "name": "vue-3-sidebar",
+  "version": "0.0.1",
+  "private": false,
+  "license": "MIT",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "build-library": "vue-cli-service build --target lib --name vue-3-sidebar ./src/plugins/Sidebar.ts"
   },
+  "author": {
+    "name": "Ugur Tigu",
+    "email": "ugurtigur@gmail.com"
+  },
+  "repository": {
+    "url": "https://github.com/youurt/vue-3-sidebar"
+  },
+  "keywords": [
+    "vue",
+    "vue 3",
+    "sidebar",
+    "vue 3 plugin"
+  ],
+  "files": [
+    "dist/*"
+  ],
+  "main": "./dist/vue-3-sidebar.umd.js",
   "dependencies": {
     "bootstrap-vue-3-wrappers": "^0.0.23",
     "core-js": "^3.6.5",
