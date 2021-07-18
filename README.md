@@ -2,6 +2,8 @@
 Vue 3 Plugin for a collapsable Sidebar with childs and hover on Items!
 
 
+![Vue 3 Sidebar](main.png)
+
 
 ## Using the Plugin
 ```

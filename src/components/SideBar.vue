@@ -91,7 +91,7 @@ export default defineComponent({
 })
 </script>
 
-<style lang="scss">
+<style scoped lang="scss">
 #sb {
   transition: 0.3s ease;
   padding-left: 350px;
